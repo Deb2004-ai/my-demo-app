@@ -1,26 +1,14 @@
-import logo from './logo.svg';
+import ImageCard from "./components/ImageCard";
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-
-        <p>
-          This is my feature branch code change. I am learning how to use git and github now.
-        </p>
-
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React with Edusite
-        </a>
-
-      </header>
+      <ImageCard name="Debayan Roy" imgLink="https://avatars.githubusercontent.com/u/172286422?v=4" />
+      <ImageCard name="Subhratanu saha" imgLink="https://avatars.githubusercontent.com/u/64859956?v=4" />
+      <ImageCard name="Tanima Nag" imgLink="https://avatars.githubusercontent.com/u/171805697?v=4" />
+      <ImageCard name="Soumodeep M" imgLink="https://avatars.githubusercontent.com/u/221869256?v=4" />
+      <ImageCard name="Sayan Sengupta" imgLink="https://avatars.githubusercontent.com/u/261204091?v=4" />
     </div>
   );
 }
